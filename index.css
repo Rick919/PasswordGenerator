@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    
+}
+
+#container{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    text-align: start;
+    margin: 10px auto;
+    color: aliceblue;
+    font-family: "Karla", sans-serif;
+    border-radius: 10px;
+   
+}
+
+#elements{
+    display: flex;
+    flex-direction: column;
+    margin: 52px;
+    
+}
+
+#header-title{
+    
+    width: 300px;
+    text-align: start;
+    margin-top: 115px;
+    
+    
+}
+h1{
+   
+    margin-bottom: 10px;
+}
+
+#header-title p{
+   
+    width: 340px;
+    margin-top: 10px;
+    color: #D5D4D8;
+    font-weight: lighter;
+    font-size: 20px;
+    
+    
+}
+
+span{
+    color: #4ADF86;
+    
+}
+
+#generate-password{
+    margin-top: 51px;
+    margin-bottom: 35px;
+    
+}
+
+.btn-layout{
+    background-color: #10B981;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+}
+
+#password{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.show-password{
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    margin-right: 24px;
+    color: #55F991;
+    text-align: center;
+    line-height: 40px;
+    
+   
+}
+
+#line{
+    border: 1px solid #273549;
+    text-align: center;
+    width: 420px;
+}
